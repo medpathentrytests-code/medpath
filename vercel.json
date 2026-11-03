@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/app",
+      "destination": "/app.html"
+    },
+    {
+      "source": "/((?!app|og|shield|favicon).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

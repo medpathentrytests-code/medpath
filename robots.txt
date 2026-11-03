@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /notes-review
+Disallow: /account
+
+Sitemap: /sitemap.xml

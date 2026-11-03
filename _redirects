@@ -1,0 +1,5 @@
+# the mobile product keeps its own file
+/app        /app.html   200
+/app/*      /app.html   200
+# every other path renders the website, which reads the path itself
+/*          /index.html 200
